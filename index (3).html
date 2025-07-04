@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Project</title>
+    <link rel="stylesheet" href="index (3).css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="main_box">
+        <h1><i class="fa-duotone fa-solid fa-camera-retro"></i>Photographer</h1>
+        <h3>About us:</h3>
+        <p><i>We are passionate storytellers who capture moments that last <br>a lifetime. Through our lens, we bring emotions, beauty, and creativity <br>to life, turning ordinary scenes into extraordinary memories.</i></p>
+        <input type="checkbox" id="check" />
+        <div class="btn_one">
+            <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        </div>
+        <div class="button-container">
+            <button class="btn login">Log in</button>
+            <button class="btn signup">Sign up</button>
+        </div>
+
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a href="#">Menu</a>
+            </div>
+            <section>
+                <div class="btn_two">
+                    <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-image"></i>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="#">Shortcuts</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-photo-film"></i>
+                            <a href="#">Exhibits</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-store"></i>
+                            <a href="#">Store</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-comments"></i>
+                            <a href="#">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social_media">
+                    <ul>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+</section>
+<section id="gallery" class="gallery">
+    <h2><i>Photography Gallery</i></h2><br>
+    <div class="gallery-container">
+        <img src="Pre-Wedding.jpg" alt="Pre-Wedding">
+        <img src="party.jpeg" alt="Party">
+        <img src="model.jpeg" alt="model">
+        <img src="images.jpeg" alt="product">
+        <img src="beach.jpeg" alt="beach">
+        <img src="couple.jpeg" alt="couple">
+        <img src="night shoot.jpeg" alt="night shoot">
+        <img src="bottel shoot.jpeg" alt="bottel shoot">
+    </div>
+</section>
+</div>
+<!-- Book a Slot Section -->
+<section class="book-slot">
+    <h2>Book Your Photography Session</h2>
+    <p>Reserve your slot for a stunning photoshoot today!</p>
+
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Select Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="service">Photography Type:</label>
+        <select id="service" name="service" required>
+            <option value="portrait">Portrait Photography</option>
+            <option value="wedding">Wedding Photography</option>
+            <option value="fashion">Fashion Photography</option>
+            <option value="product">Product Photography</option>
+            <option value="event">Event Photography</option>
+        </select>
+
+        <label for="message">Additional Notes:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Add any special requests"></textarea>
+
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<!-- Meet the Team Section -->
+<section id="team" class="team">
+    <h2>Meet Our Team</h2><br>
+    <div class="team-container">
+        <div class="team-member">
+            <img src="photographer man 1.jpeg" alt="Photographer 1">
+            <div class="about">
+                <h2>John Doe</h2>
+                <p><b>Lead Photographer</b></p>
+                <p>Expert in setting the perfect light for stunning photography.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="photographer man 2.jpeg" alt="Photographer 2">
+            <div class="about">
+                <h2>Jane Smith</h2>
+                <p><b>Creative Director</b></p>
+                <p>Expert in setting the perfect light for stunning photography.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="photographer man 3.jpeg" alt="Photographer 3">
+            <div class="about">
+                <h2>Michael Brown</h2>
+                <p><b>Lighting Specialist</b></p>
+                <p>Expert in setting the perfect light for stunning photography.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="photographer man 4.png" alt="Photographer 4">
+            <div class="about">
+                <h2>Robert Frank</h2>
+                <p><b>Macro Specialist</b></p>
+                <p>Expert in setting the perfect light for stunning photography.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-about">
+            <p>Capturing moments that last a lifetime. Specializing in portrait, wedding, and commercial photography.</p>
+        </div>
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733635.png" alt="Twitter"></a>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2025 Your Photography Studio | All Rights Reserved</p>
+    </div>
+</footer>
+
+</div>
+
+</body>
+
+</html>
